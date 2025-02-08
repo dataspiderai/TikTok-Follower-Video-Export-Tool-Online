@@ -1,5 +1,6 @@
 <div align="center">
-  ![TikTok Data Exporter Banner](YOUR_IMAGE_URL_HERE)
+  ![TikTok Data Exporter Banner](./TikTok-Follower- Video-Export-Tool.png.png)
+  
   <h1>📊 TikTok Data Exporter</h1>
   <p>
     <em>Professional TikTok Data Export & Analytics Tool</em><br>
