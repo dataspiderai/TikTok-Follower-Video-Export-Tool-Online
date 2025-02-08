@@ -1,10 +1,12 @@
 <div align="center">
-  ![TikTok Data Exporter Banner](./TikTok-Follower- Video-Export-Tool.png.png)
-  
+
   <h1>📊 TikTok Data Exporter</h1>
   <p>
     <em>Professional TikTok Data Export & Analytics Tool</em><br>
     <em>专业的TikTok数据导出和分析工具</em>
+  </p>
+  <p>
+    <strong>Visit us: <a href="https://www.dataspider.ai/template/theme/tiktok">www.dataspider.ai/template/theme/tiktok</a></strong>
   </p>
   <div>
     <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
@@ -13,6 +15,13 @@
   </div>
   
   [English](#english) | [中文](#chinese)
+</div>
+
+<div style="text-align: center;">
+  <a href="https://www.dataspider.ai/template/theme/tiktok">
+    <img src="./TikTok-Follower-Video-Export-Tool.png" alt="TikTok Data Exporter Banner" width="100%">
+  </a>
+  <p><em>Visit our website for more details: <a href="https://www.dataspider.ai/template/theme/tiktok">www.dataspider.ai/template/theme/tiktok</a></em></p>
 </div>
 
 <div id="english">
@@ -62,19 +71,88 @@ Get TikTok Followers URL, dates, etc., from TikTok by URLs.
 | heartCount    | Total Hearts         | 123,456      |
 | videoCount    | Total Videos         | 589          |
 
-### Videos: TikTok Video Data Export
-| Field           | Description            | Sample        |
-|-----------------|------------------------|---------------|
-| videoId         | Video ID              | 7123456789    |
-| description     | Video Description      | "Check this!" |
-| createTime      | Creation Date          | 2024-02-08    |
-| duration        | Video Duration (sec)   | 60            |
-| ratio           | Video Ratio           | "1080x1920"   |
-| playCount       | Play Count            | 10000         |
-| diggCount       | Like Count            | 1500          |
-| commentCount    | Comment Count         | 200           |
-| shareCount      | Share Count           | 50            |
-| downloadCount   | Download Count        | 25            |
+### Search Keyword: TikTok Keyword Search Video
+Get TikToker Video Data, Keyword By TikTok.
+
+| Field         | Description          | Sample       |
+|---------------|----------------------|--------------|
+| VideoID       | Video ID             | 1234567890   |
+| cover         | Video Cover          | [Cover](https://example.com/cover.jpg) |
+| detailUrl     | Video Detail Link    | [Detail](https://tiktok.com/@example/video/123456) |
+| desc          | Video Description    | "Amazing Video" |
+| hashtag       | Hashtag              | #funny       |
+| collectCount  | Collection Count     | 1234         |
+| commentCount  | Comment Count        | 567          |
+| diggCount     | Like Count           | 12345        |
+| playCount     | Play Count           | 123456       |
+| shareCount    | Share Count          | 789          |
+| createTime    | Creation Time        | 2025-02-08   |
+| duration      | Video Duration (s)   | 60           |
+| musicUrl      | Music Link           | [Music](https://example.com/music.mp3) |
+| videoUrl      | Video Link           | [Video](https://example.com/video.mp4) |
+| imageUrl      | Image Link           | [Image](https://example.com/image.jpg) |
+| poiAddress    | Location Address     | "New York"   |
+| authorName    | Author Name          | TikTok Star  |
+| authorUniqueId| Author Unique ID     | @tiktokstar  |
+| authorAvatarThumb | Author Avatar    | [Avatar](https://example.com/avatar.jpg) |
+| authorDiggCount | Author Likes       | 12345        |
+| authorFollowerCount | Author Followers | 56789      |
+| authorFollowingCount | Author Following | 678      |
+| authorHeartCount | Author Hearts     | 123456       |
+| authorVideoCount | Author Videos     | 78           |
+| authorFriendCount | Author Friends   | 567          |
+| authorVerified | Author Verified     | True         |
+
+### Author Video: TikTok Creator Videos Collector
+Use the TikTok Creator Videos Collector to retrieve video authors, URLs, dates, and more from TikTok via provided URLs.
+
+| Field         | Description          | Sample       |
+|---------------|----------------------|--------------|
+| VideoID       | Video ID             | 1234567890   |
+| cover         | Video Cover          | [Cover](https://example.com/cover.jpg) |
+| detailUrl     | Video Detail Link    | [Detail](https://tiktok.com/@example/video/123456) |
+| desc          | Video Description    | "Amazing Video" |
+| hashtag       | Hashtag              | #funny       |
+| collectCount  | Collection Count     | 1234         |
+| commentCount  | Comment Count        | 567          |
+| diggCount     | Like Count           | 12345        |
+| playCount     | Play Count           | 123456       |
+| shareCount    | Share Count          | 789          |
+| createTime    | Creation Time        | 2025-02-08   |
+| duration      | Video Duration (s)   | 60           |
+| musicUrl      | Music Link           | [Music](https://example.com/music.mp3) |
+| videoUrl      | Video Link           | [Video](https://example.com/video.mp4) |
+| imageUrl      | Image Link           | [Image](https://example.com/image.jpg) |
+| poiAddress    | Location Address     | "New York"   |
+| authorName    | Author Name          | TikTok Star  |
+| authorUniqueId| Author Unique ID     | @tiktokstar  |
+| authorAvatarThumb | Author Avatar    | [Avatar](https://example.com/avatar.jpg) |
+| authorDiggCount | Author Likes       | 12345        |
+| authorFollowerCount | Author Followers | 56789      |
+| authorFollowingCount | Author Following | 678      |
+| authorHeartCount | Author Hearts     | 123456       |
+| authorVideoCount | Author Videos     | 78           |
+| authorFriendCount | Author Friends   | 567          |
+| authorVerified | Author Verified     | True         |
+
+### Export Profile: TikTok Author Profile Scraper
+Get TikToker Author Profile, URL, dates, etc., from TikTok by URLs.
+
+| Field         | Description          | Sample       |
+|---------------|----------------------|--------------|
+| uniqueId      | Unique User ID       | @example     |
+| nickname      | Nickname             | Example User |
+| ttSeller      | TikTok Seller Status | False        |
+| signature     | User Signature       | "Data Exporter" |
+| secUid        | Secure User ID       | SEC123456    |
+| verified      | Verified Status      | True         |
+| link          | Profile Link         | [Link](https://tiktok.com/@example) |
+| avatarThumb   | Avatar Thumbnail     | [Avatar](https://example.com/avatar.jpg) |
+| videoCount    | Total Videos         | 123          |
+| heartCount    | Total Hearts         | 456789       |
+| friendCount   | Friend Count         | 678          |
+| followingCount| Following Count      | 789          |
+| followerCount | Follower Count       | 1,234,567    |
 
 ## Frequently Asked Questions
 
@@ -126,38 +204,107 @@ DataSpider.ai 提供专业的社交媒体数据解决方案，帮助企业和个
 ```
 
 ## 📋 支持的数据字段
-### 粉丝数据：TikTok 作者粉丝抓取器
-通过 URL 获取 TikTok 粉丝 URL、日期等信息。
+### 粉丝数据：TikTok作者粉丝采集器
+通过URL获取TikTok粉丝的URL、日期等信息。
 
-| 字段          | 描述              | 示例          |
-|--------------|------------------|---------------|
-| url          | TikTok 主页 URL   | https://tiktok.com/@example |
-| uniqueId     | 用户唯一标识       | @tiktokstar   |
-| nickname     | 昵称             | TikTok Star   |
-| profile link | 个人主页链接       | [主页](https://tiktok.com/@example) |
-| verified     | 认证状态          | 是            |
-| ttSeller     | TikTok商家状态    | 否            |
-| signature    | 个人签名          | "你好世界"      |
-| avatar       | 头像链接          | [头像](https://example.com/avatar.jpg) |
-| diggCount    | 总点赞数          | 12345         |
-| followerCount| 粉丝数           | 1,234,567     |
-| followingCount| 关注数           | 567           |
-| heartCount   | 获赞总数          | 123,456       |
-| videoCount   | 视频总数          | 589           |
+| 字段          | 描述              | 示例数据     |
+|---------------|-------------------|--------------|
+| url           | TikTok个人主页URL | https://tiktok.com/@example |
+| uniqueId      | 用户唯一ID        | @tiktokstar  |
+| nickname      | 昵称              | TikTok Star  |
+| profile link  | 主页链接          | [个人主页](https://tiktok.com/@example) |
+| verified      | 认证状态          | True         |
+| ttSeller      | TikTok商家状态    | False        |
+| signature     | 个人签名          | "Hello World" |
+| avatar        | 头像链接          | [头像](https://example.com/avatar.jpg) |
+| diggCount     | 点赞总数          | 12345        |
+| followerCount | 粉丝数量          | 1,234,567    |
+| followingCount| 关注数量          | 567          |
+| heartCount    | 获赞总数          | 123,456      |
+| videoCount    | 视频总数          | 589          |
 
-### 视频数据：TikTok 视频数据导出
-| 字段            | 描述               | 示例          |
-|----------------|-------------------|---------------|
-| videoId        | 视频ID            | 7123456789    |
-| description    | 视频描述           | "快来看看！"    |
-| createTime     | 创建时间           | 2024-02-08    |
-| duration       | 视频时长（秒）      | 60            |
-| ratio          | 视频比例           | "1080x1920"   |
-| playCount      | 播放次数           | 10000         |
-| diggCount      | 点赞数             | 1500          |
-| commentCount   | 评论数             | 200           |
-| shareCount     | 分享数             | 50            |
-| downloadCount  | 下载次数           | 25            |
+### 关键词搜索：TikTok关键词视频搜索
+通过TikTok关键词获取视频数据。
+
+| 字段          | 描述              | 示例数据     |
+|---------------|-------------------|--------------|
+| VideoID       | 视频ID            | 1234567890   |
+| cover         | 视频封面          | [封面](https://example.com/cover.jpg) |
+| detailUrl     | 视频详情链接      | [详情](https://tiktok.com/@example/video/123456) |
+| desc          | 视频描述          | "精彩视频"    |
+| hashtag       | 话题标签          | #搞笑        |
+| collectCount  | 收藏数量          | 1234         |
+| commentCount  | 评论数量          | 567          |
+| diggCount     | 点赞数量          | 12345        |
+| playCount     | 播放次数          | 123456       |
+| shareCount    | 分享次数          | 789          |
+| createTime    | 创建时间          | 2025-02-08   |
+| duration      | 视频时长(秒)      | 60           |
+| musicUrl      | 音乐链接          | [音乐](https://example.com/music.mp3) |
+| videoUrl      | 视频链接          | [视频](https://example.com/video.mp4) |
+| imageUrl      | 图片链接          | [图片](https://example.com/image.jpg) |
+| poiAddress    | 地理位置          | "纽约"        |
+| authorName    | 作者名称          | TikTok Star  |
+| authorUniqueId| 作者唯一ID        | @tiktokstar  |
+| authorAvatarThumb | 作者头像      | [头像](https://example.com/avatar.jpg) |
+| authorDiggCount | 作者获赞数      | 12345        |
+| authorFollowerCount | 作者粉丝数  | 56789        |
+| authorFollowingCount | 作者关注数 | 678          |
+| authorHeartCount | 作者获赞总数   | 123456       |
+| authorVideoCount | 作者视频数     | 78           |
+| authorFriendCount | 作者好友数    | 567          |
+| authorVerified | 作者认证状态     | True         |
+
+### 作者视频：TikTok创作者视频采集器
+使用TikTok创作者视频采集器通过提供的URL获取视频作者、URL、日期等信息。
+
+| 字段          | 描述              | 示例数据     |
+|---------------|-------------------|--------------|
+| VideoID       | 视频ID            | 1234567890   |
+| cover         | 视频封面          | [封面](https://example.com/cover.jpg) |
+| detailUrl     | 视频详情链接      | [详情](https://tiktok.com/@example/video/123456) |
+| desc          | 视频描述          | "精彩视频"    |
+| hashtag       | 话题标签          | #搞笑        |
+| collectCount  | 收藏数量          | 1234         |
+| commentCount  | 评论数量          | 567          |
+| diggCount     | 点赞数量          | 12345        |
+| playCount     | 播放次数          | 123456       |
+| shareCount    | 分享次数          | 789          |
+| createTime    | 创建时间          | 2025-02-08   |
+| duration      | 视频时长(秒)      | 60           |
+| musicUrl      | 音乐链接          | [音乐](https://example.com/music.mp3) |
+| videoUrl      | 视频链接          | [视频](https://example.com/video.mp4) |
+| imageUrl      | 图片链接          | [图片](https://example.com/image.jpg) |
+| poiAddress    | 地理位置          | "纽约"        |
+| authorName    | 作者名称          | TikTok Star  |
+| authorUniqueId| 作者唯一ID        | @tiktokstar  |
+| authorAvatarThumb | 作者头像      | [头像](https://example.com/avatar.jpg) |
+| authorDiggCount | 作者获赞数      | 12345        |
+| authorFollowerCount | 作者粉丝数  | 56789        |
+| authorFollowingCount | 作者关注数 | 678          |
+| authorHeartCount | 作者获赞总数   | 123456       |
+| authorVideoCount | 作者视频数     | 78           |
+| authorFriendCount | 作者好友数    | 567          |
+| authorVerified | 作者认证状态     | True         |
+
+### 导出资料：TikTok作者资料采集器
+通过URL获取TikTok作者资料、URL、日期等信息。
+
+| 字段          | 描述              | 示例数据     |
+|---------------|-------------------|--------------|
+| uniqueId      | 用户唯一ID        | @example     |
+| nickname      | 昵称              | Example User |
+| ttSeller      | TikTok商家状态    | False        |
+| signature     | 个人签名          | "数据导出器"  |
+| secUid        | 安全用户ID        | SEC123456    |
+| verified      | 认证状态          | True         |
+| link          | 主页链接          | [链接](https://tiktok.com/@example) |
+| avatarThumb   | 头像缩略图        | [头像](https://example.com/avatar.jpg) |
+| videoCount    | 视频总数          | 123          |
+| heartCount    | 获赞总数          | 456789       |
+| friendCount   | 好友数量          | 678          |
+| followingCount| 关注数量          | 789          |
+| followerCount | 粉丝数量          | 1,234,567    |
 
 ## 常见问题
 
