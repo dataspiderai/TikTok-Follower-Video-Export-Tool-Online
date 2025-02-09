@@ -6,7 +6,7 @@
     <em>专业的TikTok数据导出和分析工具</em>
   </p>
   <p>
-    <strong>Visit us: <a href="https://www.dataspider.ai/template/theme/tiktok">www.dataspider.ai/template/theme/tiktok</a></strong>
+    <strong>Visit us: <a href="https://www.dataspider.ai/template/theme/tiktok?from=github">www.dataspider.ai/template/theme/tiktok</a></strong>
   </p>
   <div>
     <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
